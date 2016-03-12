@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:defaultValue="false"
+                        android:key="pref_toggle_push_messaging"
+                        android:title="@string/preferences__use_data_channel"
+                        android:summary="@string/preferences__use_the_data_channel_for_communication_with_other_textsecure_users"/>
+
+    <Preference android:key="preference_category_sms_mms"
+                android:title="@string/preferences__sms_mms"/>
+
+    <Preference android:key="preference_category_notifications"
+                android:title="@string/preferences__notifications"/>
+
+    <Preference android:key="preference_category_app_protection"
+                android:title="@string/preferences__app_protection"/>
+
+    <Preference android:key="preference_category_appearance"
+                android:title="@string/preferences__appearance"/>
+
+    <Preference android:key="preference_category_storage"
+                android:title="@string/preferences__delete_old_messages"/>
+
+    <Preference android:key="preference_category_advanced"
+                android:title="@string/preferences__advanced"/>
+</PreferenceScreen>

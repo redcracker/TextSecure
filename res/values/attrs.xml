@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="conversation_list_item_background_selected" format="reference"/>
+    <attr name="conversation_list_item_background_read" format="reference"/>
+    <attr name="conversation_list_item_background_unread" format="reference"/>
+    <attr name="conversation_list_item_count_color" format="reference|color"/>
+    <attr name="conversation_list_item_contact_color" format="reference|color"/>
+    <attr name="conversation_list_item_subject_color" format="reference|color"/>
+    <attr name="conversation_list_item_date_color" format="reference|color"/>
+    <attr name="conversation_list_item_divider" format="reference"/>
+
+    <attr name="share_list_item_divider" format="reference"/>
+
+    <attr name="conversation_sent_card_background" format="reference|color"/>
+    <attr name="conversation_group_member_name" format="reference|color"/>
+    <attr name="conversation_sent_text_primary_color" format="reference|color"/>
+    <attr name="conversation_sent_text_secondary_color" format="reference|color"/>
+    <attr name="conversation_received_card_background" format="reference|color"/>
+    <attr name="conversation_received_text_primary_color" format="reference|color"/>
+    <attr name="conversation_received_text_secondary_color" format="reference|color"/>
+
+    <attr name="actionbar_icon" format="reference" />
+    <attr name="lower_right_divet" format="reference" />
+
+    <attr name="conversation_background" format="reference|color"/>
+    <attr name="conversation_editor_background" format="reference"/>
+    <attr name="conversation_editor_text_color" format="reference|color"/>
+    <attr name="conversation_send_button_push" format="reference"/>
+    <attr name="conversation_send_button_sms_secure" format="reference"/>
+    <attr name="conversation_send_button_sms_insecure" format="reference"/>
+    <attr name="conversation_delivery_delivered" format="reference"/>
+    <attr name="conversation_transport_indicators" format="reference"/>
+    <attr name="conversation_transport_popup_background" format="reference"/>
+    <attr name="conversation_emoji_toggle" format="reference"/>
+    <attr name="conversation_keyboard_toggle" format="reference"/>
+
+    <attr name="conversation_item_background" format="reference"/>
+    <attr name="conversation_item_received_background" format="reference" />
+    <attr name="conversation_item_received_triangle_background" format="reference" />
+    <attr name="conversation_item_sent_background" format="reference" />
+    <attr name="conversation_item_sent_triangle_background" format="reference" />
+    <attr name="conversation_item_sent_pending_background" format="reference" />
+    <attr name="conversation_item_sent_pending_triangle_background" format="reference" />
+    <attr name="conversation_item_sent_push_background" format="reference" />
+    <attr name="conversation_item_sent_push_triangle_background" format="reference" />
+    <attr name="conversation_item_sent_indicator_text_background" format="reference" />
+    <attr name="dialog_info_icon" format="reference" />
+    <attr name="dialog_alert_icon" format="reference" />
+    <attr name="conversation_item_sent_push_pending_background" format="reference" />
+    <attr name="conversation_item_sent_push_pending_triangle_background" format="reference" />
+
+    <attr name="contact_selection_push_user" format="reference|color" />
+    <attr name="contact_selection_lay_user" format="reference|color" />
+    <attr name="contact_selection_label_text" format="reference|color" />
+    <attr name="conversation_selection_header_text" format="reference|color" />
+
+    <attr name="reminder_header_background" format="color"/>
+
+    <attr name="menu_new_conversation_icon" format="reference" />
+    <attr name="menu_new_group_icon" format="reference" />
+    <attr name="menu_search_icon" format="reference" />
+    <attr name="menu_call_icon" format="reference" />
+    <attr name="menu_unlock_icon" format="reference" />
+    <attr name="menu_lock_icon" format="reference" />
+    <attr name="menu_lock_icon_small" format="reference" />
+    <attr name="menu_trash_icon" format="reference" />
+    <attr name="menu_selectall_icon" format="reference" />
+    <attr name="menu_group_icon" format="reference" />
+    <attr name="menu_split_icon" format="reference" />
+    <attr name="menu_accept_icon" format="reference" />
+    <attr name="menu_refresh_directory" format="reference" />
+    <attr name="menu_copy_icon" format="reference" />
+    <attr name="menu_info_icon" format="reference" />
+    <attr name="menu_forward_icon" format="reference" />
+    <attr name="menu_save_icon" format="reference" />
+
+    <declare-styleable name="ForegroundImageView">
+        <attr name="android:foreground" />
+        <attr name="android:foregroundInsidePadding" />
+        <attr name="android:foregroundGravity" />
+    </declare-styleable>
+</resources>
